@@ -1,6 +1,6 @@
-docker build -t flask-tutorial:latest .
+docker build -t flask:latest .
 
-docker run -d -p 5000:5000 flask-tutorial
+docker run -d -p 5000:5000 flask
 
 # iTask Restful API
 
